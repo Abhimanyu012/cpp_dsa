@@ -36,12 +36,12 @@ void pattern3()
 
     for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j < i; j++)
+        for (int j = 1; j <= i; j++) // j<i
         {
 
             cout << i << " ";
         }
-        cout << i;
+        // cout << i; it works in both case if j<n and cout 1 and also remove cout i and j<=n
         cout << endl;
     }
 }
