@@ -46,23 +46,39 @@ void pattern3()
     }
 }
 
-void pattern5(){
-     int n;
+void pattern5()
+{
+    int n;
     cin >> n;
 
     for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j <=n-i+1; j++) // j<i
+        for (int j = 1; j <= n - i + 1; j++) // j<i
         {
 
-            cout <<"* ";
+            cout << "* ";
         }
-       cout << endl;
+        cout << endl;
+    }
+}
+void pattern6()
+{
+    int n;
+    cin >> n;
+
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 1; j <= n - i + 1; j++) // j<i
+        {
+
+            cout << j;
+        }
+        cout << endl;
     }
 }
 int main()
 {
-    pattern5();
+    pattern6();
 
     return 0;
 }
