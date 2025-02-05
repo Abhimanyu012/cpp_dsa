@@ -45,7 +45,6 @@ void pattern3()
         cout << endl;
     }
 }
-
 void pattern5()
 {
     int n;
@@ -62,6 +61,7 @@ void pattern5()
     }
 }
 void pattern6()
+
 {
     int n;
     cin >> n;
